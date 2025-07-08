@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Nadheem | Full Stack Developer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Nadheem</h1>
+    <p>Full Stack Developer | MERN Stack | Passionate Coder</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I'm a tech enthusiast specializing in full-stack development using modern frameworks like React and Node.js. I love building responsive, user-focused applications that solve real-world problems.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project" onclick="showProject('Smart Inventory System', 'Built with MERN stack and includes real-time updates and alerts.')">Smart Inventory System</div>
+    <div class="project" onclick="showProject('Food Delivery App', 'Developed a complete food ordering system with real-time tracking.')">Food Delivery App</div>
+    <div class="project" onclick="showProject('Task Manager API', 'RESTful API using Node.js and MongoDB with token-based auth.')">Task Manager API</div>
+  </section>
+
+  <section id="skills">
+    <h2>Technical Skills</h2>
+    <ul>
+      <li>Frontend: HTML, CSS, JavaScript, React</li>
+      <li>Backend: Node.js, Express, MongoDB</li>
+      <li>Tools: Git, Postman, VS Code, Docker (Basic)</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:nadheem.dev@gmail.com">nadheem.dev@gmail.com</a></p>
+    <p>GitHub: <a href="https://github.com/nadheemdev">github.com/nadheemdev</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/nadheem">linkedin.com/in/nadheem</a></p>
+  </section>
+
+  <!-- Modal -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h3 id="modal-title"></h3>
+      <p id="modal-description"></p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
